@@ -466,6 +466,10 @@ namespace kittenwifi {
     export function rest_request(method: string, api: string): void {
         serial.writeString("WF 21 2 0 " + method + " " + api + "\n")
     }
+    
+    export function rest_request_cmd(method: string, api: string): void {
+        serial.writeString("WF 11 4 11 " + method + " " + api + "\n")
+    }
 
 
     /**
