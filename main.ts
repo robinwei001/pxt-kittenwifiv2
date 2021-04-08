@@ -1,7 +1,7 @@
 /*
 Riven
 load dependency
-"kittenwifi": "file:../pxt-kittenwifi"
+"kittenwifi": "file:../pxt-kittenwifiv2"
 */
 
 //% color="#31C7D5" weight=10 icon="\uf1eb"
